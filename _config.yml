@@ -102,11 +102,11 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: disqus
 
   ## Disqus
   disqus:
-    shortname: # the Disqus shortname for the site
+    shortname: we-studio
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.

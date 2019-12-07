@@ -5,21 +5,21 @@ highlight_theme: tomorrow-night-eighties
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : We Studio
-description: > # this means to ignore newlines until "Language & timezone"
+description: >
   Blog sharing world!
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: zh
+timezone: Asia/Shanghai
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
+  type      : organization
+  name      : We Studio
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
@@ -39,7 +39,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: Git-WeStudio/Git-WeStudio.github.io
 repository_tree: master
 
 

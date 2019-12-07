@@ -92,7 +92,7 @@ sources: bootcdn
 ## => Sharing
 ##############################
 sharing:
-  provider: addtoany # false (default), "addtoany", "addthis", "custom"
+  provider: # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:

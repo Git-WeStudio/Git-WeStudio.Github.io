@@ -179,7 +179,6 @@ defaults:
         toc: true
       show_edit_on_github: false
       show_subscribe: false
-      comments: true
       analytics: true
       pageview: false
 

@@ -153,12 +153,12 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google
 
   ## Google Analytics
   google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
+    tracking_id : UA-154192979-1
+    anonymize_ip: true
 
 
 ## => Build
@@ -198,7 +198,8 @@ defaults:
       show_edit_on_github: false
       show_subscribe: true
       comments: true
-      pageview: true
+      analytics: true
+      pageview: false
 
 
 ## => Plugins

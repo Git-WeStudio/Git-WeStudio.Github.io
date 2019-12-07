@@ -170,7 +170,7 @@ permalink   : date
 defaults:
   - scope:
       path: ""
-      type: posts
+      type: blog
     values:
       layout: article
       sharing: true

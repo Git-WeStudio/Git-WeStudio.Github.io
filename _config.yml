@@ -46,10 +46,10 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : "/"
-  home    : "/"
-  archive : "/archive.html"
-  rss     : "/feed.xml"
+  root    : /
+  home    : /
+  archive : /archive.html
+  rss     : /feed.xml
 
 
 ## => Post
@@ -58,11 +58,11 @@ paths:
 excerpt_separator: <!--more-->
 
 ## license
-license: false
+license: CC-BY-4.0
 
 ## TOC
 toc:
-  selectors: # "h1,h2,h3" (default)
+  selectors: h1,h2,h3
 
 
 ## => Markdown Enhancements
@@ -86,7 +86,7 @@ paginate_path: /page:num # don't change this unless for special need
 
 ## => Sources
 ##############################
-sources: # bootcdn (default), unpkg
+sources: bootcdn
 
 
 ## => Sharing

@@ -56,7 +56,6 @@ paths:
 ##############################
 ## excerpt
 excerpt_separator: <!--more-->
-excerpt_type: html
 
 ## license
 license: CC-BY-4.0
@@ -178,6 +177,8 @@ defaults:
       license: false
       aside:
         toc: true
+      articles:
+        excerpt_type: html
       show_edit_on_github: false
       show_subscribe: false
       analytics: true

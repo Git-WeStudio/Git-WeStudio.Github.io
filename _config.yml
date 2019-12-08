@@ -169,7 +169,7 @@ permalink   : date
 
 defaults:
   - scope:
-      path: ""
+      path: "blog"
       type: posts
     values:
       layout: article
@@ -177,8 +177,6 @@ defaults:
       license: false
       aside:
         toc: true
-      articles:
-        excerpt_type: html
       show_edit_on_github: false
       show_subscribe: false
       analytics: true
